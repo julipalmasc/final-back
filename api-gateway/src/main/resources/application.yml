@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api-gateway
+  config:
+    import:
+      - optional:configserver:http://localhost:8888
+  #security:
+    #oauth2:
+      #client:
+        #registration:
+          #github:
+            #clientId: b7f17925360f985a6b07
+            #clientSecret: 8e7608f8d569cc948ae24ca63760df9317c4e5ad
