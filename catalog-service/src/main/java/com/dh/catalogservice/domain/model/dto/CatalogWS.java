@@ -9,9 +9,11 @@ import java.util.List;
 public class CatalogWS {
 	private String genre;
 	private List<MovieWS> movies;
+	private List<SerieWS> series;
 
-	public CatalogWS(String genre, List<MovieWS> movies) {
+	public CatalogWS(String genre, List<MovieWS> movies, List<SerieWS> series) {
 		this.genre = genre;
 		this.movies = movies;
+		this.series = series;
 	}
 }
